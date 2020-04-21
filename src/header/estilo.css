@@ -1,0 +1,15 @@
+.header{
+    background:#EB772A;
+    height: 60px;
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color: #EEFF;
+/*    background-image: url('./logo.jpg');
+    background-repeat:no-repeat ;
+    background-size: 67px;
+    background-position: 490px;
+ */   
+}
