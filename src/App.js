@@ -5,15 +5,10 @@ import VendaItem from './componetes/index'
 
 const App=() =>(
 
-    <div className="App">
-  <Header>
-
-  </Header>
-  <VendaItem>
-    
-  </VendaItem>
-
-    </div>
+  <div className="App">
+    <Header />
+    <VendaItem />
+  </div>
 
 );
 

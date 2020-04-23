@@ -1,24 +1,42 @@
-.caixa{
+.content-table{
     margin-top:20px ;
     width:645px ;
     margin-left: 80px;
-    max-width: 850px;
+    min-width: 400px;
     border: 1px solid #D1D2C0;
-    height: 520px;
-    color: #565658;
-    display: ;
-    background-image:url('./undraw_add_document_0hek.png');
+    font-size: 0.9em;
+    height: 140px;
+    border-collapse: collapse;
+    color: #2c2c2c;
+    /* background-image:url('./undraw_add_document_0hek.png'); */
+    opacity: 0.8;
     background-size: 660px;
     background-repeat: no-repeat;
 }
 
     
+.content-table thead tr{
+    background: #Ddd;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table td,
+.content-table th{
+    padding: 12px 15px;
+    
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #ddd;
 
-#componentes p{
-    margin-right: -15px;
-    margin: 0px 15px;
-    margin-left: 15px;
-    display: inline-block;
+}
+.content-table tbody tr:nth-of-type(even){
+    background: #747373;
+    color: #fcfcfc;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 3px solid #565658;
 }
 .telaValores{
     margin-top: -500px;
